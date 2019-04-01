@@ -21,6 +21,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/bootstrap.js"></script>
 </head>
 <body>
+	<?php
+	include "php/connect_dbs.php";
+	?>
 		<!--header-->
 		<div class="header">
 			<div class="container">
@@ -75,13 +78,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     	<!-- Tabs Titles -->
 
     <!-- Login Form -->
-    	<form>
+    	<form action="php/register_user.php" method="POST" >
 				<h2>Registrace</h2>
-      	<input type="text" id="name" class="fadeIn second" name="register" placeholder="Jméno">
-				<input type="text" id="surname" class="fadeIn second" name="register" placeholder="Příjmení">
-				
-				<input type="text" id="surname" class="fadeIn second" name="register" placeholder="Přezdívka">
-      	<input type="password" id="password" class="fadeIn third" name="register" placeholder="Heslo">
+      	<input type="text" id="name" class="fadeIn second" name="name" placeholder="Jméno">
+				<input type="text" id="surname" class="fadeIn second" name="surname" placeholder="Příjmení">
+
+				<input type="text" id="nick" class="fadeIn second" name="nick" placeholder="Přezdívka">
+      	<input type="password" id="password" class="fadeIn third" name="password" placeholder="Heslo">
       	<input type="submit" class="fadeIn fourth" value="Registrovat">
     	</form>
 
