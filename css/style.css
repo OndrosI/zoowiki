@@ -187,11 +187,12 @@ body{
 .wel-info h4 {
     font-size: 1.5em;
     color:#fff;
-	font-family: 'Lato-thin';
+	  font-family: 'Lato-thin';
 }
 .wel-info {
     background-color: #e67e22;
     padding: 2em;
+    min-height: 200px;
 }
 .wel-info p {
     font-size: 1em;
@@ -958,12 +959,12 @@ img.zoom-img:hover {
     float: left;
     width: 50%;
 }
-.welcome-grid:nth-child(3) {
+/* .welcome-grid:nth-child(3) {
     margin-top: 1em;
 }
 .welcome-grid:nth-child(4) {
     margin-top: 1em;
-}
+} */
 .feature-grid {
     float: left;
     width: 33.3%;
