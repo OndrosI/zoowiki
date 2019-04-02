@@ -105,6 +105,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="wel-info">
 							<h4>Jihlava</h4>
 							<p>Zoo v Jihlavě</p>
+							<?php
+								include("php/php.php");
+								// $obj = new IndexClass();
+								// $obj->WelcomeGrid();
+							?>
 						</div>
 					</a>
 				</div>
