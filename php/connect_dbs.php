@@ -2,13 +2,19 @@
 $servername = "localhost";
 $username = "root";
 $password = "root";
+$db = "mydb";
+$port = 8889;
 
 // Create connection
-$conn = new mysqli($servername, $username, $password);
+$conn = new mysqli($servername, $username, $password, $db, $port);
 
-// Check connection
-if ($conn->connect_error) {
-    die("Spojení selhalo: " . $conn->connect_error);
+
+//echo $_POST['name'].$_POST['surname'].$_POST['nick'].$_POST['password'];
+mysqli_query($conn, $sql_add);
+if ($conn->query($sql_add)===true) {
+    die("Spojení selhalo: ");
 }
-echo "Připojení k databázi proběhlo úspěšně!";
+else{
+  echo "Připojení k databázi proběhlo úspěšně!";
+}
 ?>
