@@ -78,7 +78,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     	<!-- Tabs Titles -->
 
     <!-- Login Form -->
-    	<form action="php/register_user.php" method="POST" >
+    	<form action="php/register_user.php" method="post" >
 				<h2>Registrace</h2>
       	<input type="text" id="name" class="fadeIn second" name="name" placeholder="Jméno">
 				<input type="text" id="surname" class="fadeIn second" name="surname" placeholder="Příjmení">
