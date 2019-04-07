@@ -78,7 +78,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     	<!-- Tabs Titles -->
 
     <!-- Login Form -->
-    	<form action="php.php" method="post" >
+    	<form action="php/php.php" method="post" >
 				<h2>Registrace</h2>
       	<input type="text" id="name" class="fadeIn second" name="name" placeholder="Jméno">
 				<input type="text" id="surname" class="fadeIn second" name="surname" placeholder="Příjmení">
@@ -87,14 +87,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       	<input type="password" id="password" class="fadeIn third" name="password" placeholder="Heslo">
       	<input type="submit" class="fadeIn fourth" name = "submit_register" value="Registrovat">
     	</form>
-			<?php
-				if(isset($_POST["submit"])){
-					include("php/register_user.php");
 
-					$obj_reg = new Register();
-					$obj_reg->addUser();
-				}
-			?>
 
     <!-- Remind Passowrd -->
     <!-- <div id="formFooter">
