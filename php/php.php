@@ -1,21 +1,9 @@
 <?php
 
 include("connect_dbs.php");
-// class IndexClass{
-//
-//
-//
-//   public function WelcomeGrid(){
-    // 
-    // $select_zoo_name = "SELECT * from Zoo";
-    // $result = $conn->query($select_zoo_name);
-    // $row = $result->fetch_assoc();
-    //
-    // echo $row["nazev"];
-//
-//   }
-// }
-if(isset($_POST["submit_register"])){
+
+
+if(isset($_POST["submit_register"])){ //při kliknutí na tlačítko "Registrovat" se přidá do databáze nový uživatel
   include("register_user.php");
 
   $obj_reg = new Register();
