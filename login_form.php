@@ -43,11 +43,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 								<ul class="nav navbar-nav">
-									<li><a href="index.html">Domů <span class="sr-only">(current)</span></a></li>
+									<li><a href="index.php">Domů</a></li>
 									<li><a href="about.html">O nás</a></li>
 									<li><a href="services.html">Služby</a></li>
-									<li class="login, active"><a href="login_form.html">Přihlásit</a></li>
-									<li class="register"><a href="register_form.html">Registrovat</a></li>
+									<li class="login, active"><a href="login_form.php">Přihlásit<span class="sr-only">(current)</span></a></li>
+									<li class="register"><a href="register_form.php">Registrovat</a></li>
 									<!-- <li class="dropdown">
 											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery <span class="caret"></span></a>
 									<ul class="dropdown-menu">
