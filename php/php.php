@@ -15,6 +15,11 @@ include("connect_dbs.php");
 //
 //   }
 // }
+if(isset($_POST["submit_register"])){
+  include("register_user.php");
 
+  $obj_reg = new Register();
+  $obj_reg->addUser();
+}
 
 ?>
